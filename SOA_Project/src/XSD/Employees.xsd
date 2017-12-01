@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+targetNamespace="http://www.w3schools.com"
+xmlns="http://www.w3schools.com"
+elementFormDefault="qualified">
+
+  <xs:element name="Employees">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element type="xs:string" name="EmployeeID"/>
+        <xs:element type="xs:string" name="FirstName"/>
+        <xs:element type="xs:string" name="LastName"/>
+        <xs:element type="xs:string" name="Email"/>
+        <xs:element type="xs:string" name="Extension"/>
+        <xs:element type="xs:string" name="HomePhone"/>
+        <xs:element type="xs:string" name="CellPhone"/>
+        <xs:element type="xs:string" name="JobTitle"/>
+        <xs:element type="xs:string" name="SocialSecurityNumber"/>
+        <xs:element type="xs:string" name="DriverLicenseNumber"/>
+        <xs:element type="xs:string" name="Address"/>
+        <xs:element type="xs:string" name="City"/>
+        <xs:element type="xs:string" name="State"/>
+        <xs:element type="xs:string" name="PostalCode"/>
+        <xs:element type="xs:string" name="Birthdate"/>
+        <xs:element type="xs:string" name="DateHired"/>
+        <xs:element type="xs:string" name="Salary"/>
+        <xs:element type="xs:string" name="Notes"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

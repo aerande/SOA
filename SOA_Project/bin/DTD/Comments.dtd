@@ -1,0 +1,29 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT Comments (Comment)+>
+<!ATTLIST Comments
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Comment (CommentID,TimeStamp,CommentText,CommentType,CustomerID)>
+<!ATTLIST Comment
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT CommentID (#PCDATA)>
+<!ATTLIST CommentID
+  xmlns CDATA #FIXED ''>
+  
+<!ELEMENT TimeStamp (#PCDATA)>
+<!ATTLIST TimeStamp
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT CommentText (#PCDATA)>
+<!ATTLIST CommentText
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT CommentType (#PCDATA)>
+<!ATTLIST CommentType
+  xmlns CDATA #FIXED ''>
+  
+<!ELEMENT CustomerID (#PCDATA)>
+<!ATTLIST CustomerID
+  xmlns CDATA #FIXED ''>

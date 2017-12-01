@@ -1,0 +1,72 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT Locations (Location)+>
+<!ATTLIST Locations
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Location (LocationID,LocName,LocationCode,IsAuction,
+                    CustomerID,Address_Street1,Address_street2,City,
+                    State,PostalCode,Region,Location_contact_name,
+                    LocPhone,LocFaxNumber,LocEmail)>
+<!ATTLIST Location
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT LocationID (#PCDATA)>
+<!ATTLIST LocationID
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT LocName (#PCDATA)>
+<!ATTLIST LocName
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT LocationCode (#PCDATA)>
+<!ATTLIST LocationCode
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT IsAuction (#PCDATA)>
+<!ATTLIST IsAuction
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT CustomerID (#PCDATA)>
+<!ATTLIST CustomerID
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Address_Street1 (#PCDATA)>
+<!ATTLIST Address_Street1
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Address_street2 (#PCDATA)>
+<!ATTLIST Address_street2
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT City (#PCDATA)>
+<!ATTLIST City
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT State (#PCDATA)>
+<!ATTLIST State
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT PostalCode (#PCDATA)>
+<!ATTLIST PostalCode
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Region (#PCDATA)>
+<!ATTLIST Region
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Location_contact_name (#PCDATA)>
+<!ATTLIST Location_contact_name
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT LocPhone (#PCDATA)>
+<!ATTLIST LocPhone
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT LocFaxNumber (#PCDATA)>
+<!ATTLIST LocFaxNumber
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT LocEmail (#PCDATA)>
+<!ATTLIST LocEmail
+  xmlns CDATA #FIXED ''>

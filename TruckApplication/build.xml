@@ -1,0 +1,14 @@
+<project default="wsimport">
+ 
+  <target name="wsimport">
+         
+    <exec executable="C:\Program Files\Java\jdk1.8.0_144\bin\wsimport.exe">
+             
+      <arg line="-keep -s ./src -p ITMD566 
+          -d ./bin http://localhost:8088/TruckApplication/ser?wsdl"/>
+             
+    </exec>
+         
+  </target>
+ 
+</project>

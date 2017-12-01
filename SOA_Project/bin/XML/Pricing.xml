@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<!DOCTYPE Pricing SYSTEM "C:\\Users\aniru\eclipse-workspace\SOA_Project\src\DTD\Pricing.dtd">
+
+<Pricings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="C:\\Users\aniru\eclipse-workspace\SOA_Project\src\XSD\Pricing.xsd">
+	<Pricing>
+		<PriceID>PR1</PriceID>  
+		<LocationIDFrom>LOC1</LocationIDFrom> 
+        	<LocationIDTo>LOC2</LocationIDTo> 
+        	<Price>4500</Price>  
+        	<LocationCodeFrom>CH111</LocationCodeFrom> 
+        	<LocationCodeTo>CO111</LocationCodeTo> 
+        	<LocationNameFrom>North Dakota</LocationNameFrom> 
+        	<LocationNameTo>South Dakota</LocationNameTo> 
+        	<CustomerID>CID1</CustomerID>
+	</Pricing>
+	
+	<Pricing>
+		<PriceID>PR2</PriceID>  
+		<LocationIDFrom>LOC2</LocationIDFrom> 
+		<LocationIDTo>LOC3</LocationIDTo> 
+		<Price>1000</Price>  
+		<LocationCodeFrom>CO111</LocationCodeFrom> 
+		<LocationCodeTo>NY111</LocationCodeTo> 
+		<LocationNameFrom>Rockville</LocationNameFrom> 
+		<LocationNameTo>Washington</LocationNameTo> 
+		<CustomerID>CID2</CustomerID>
+	</Pricing>
+	
+	<Pricing>
+		<PriceID>PR3</PriceID>  
+		<LocationIDFrom>LOC1</LocationIDFrom> 
+		<LocationIDTo>LOC3</LocationIDTo> 
+		<Price>1500</Price>  
+		<LocationCodeFrom>CH111</LocationCodeFrom> 
+		<LocationCodeTo>NY111</LocationCodeTo> 
+		<LocationNameFrom>Chicago</LocationNameFrom> 
+		<LocationNameTo>Milwaukee</LocationNameTo> 
+		<CustomerID>CID3</CustomerID>
+	</Pricing>
+	
+	<Pricing>
+		<PriceID>PR4</PriceID>  
+		<LocationIDFrom>LOC3</LocationIDFrom> 
+		<LocationIDTo>LOC4</LocationIDTo> 
+		<Price>1800</Price>  
+		<LocationCodeFrom>NY111</LocationCodeFrom> 
+		<LocationCodeTo>CH111</LocationCodeTo> 
+		<LocationNameFrom>Florida</LocationNameFrom> 
+		<LocationNameTo>Tampa</LocationNameTo> 
+		<CustomerID>CID4</CustomerID>
+	</Pricing>
+	
+</Pricings>

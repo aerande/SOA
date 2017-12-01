@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+targetNamespace="http://www.w3schools.com"
+xmlns="http://www.w3schools.com"
+elementFormDefault="qualified">
+
+  <xs:element name="Expenses">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element type="xs:string" name="ExpenseID"/>
+        <xs:element type="xs:string" name="EmployeeID"/>
+		<xs:element type="xs:string" name="TruckID"/>
+        <xs:element type="xs:string" name="ExpenseType"/>
+        <xs:element type="xs:string" name="PurposeofExpense"/>
+        <xs:element type="xs:string" name="AmountSpent"/>
+        <xs:element type="xs:string" name="Description"/>
+        <xs:element type="xs:string" name="DatePurchased"/>
+        <xs:element type="xs:string" name="DateSubmitted"/>
+        <xs:element type="xs:string" name="AdvanceAmount"/>
+        <xs:element type="xs:string" name="PaymentMethod"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

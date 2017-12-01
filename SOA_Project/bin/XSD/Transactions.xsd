@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+targetNamespace="http://www.w3schools.com"
+xmlns="http://www.w3schools.com"
+elementFormDefault="qualified">
+
+
+  <xs:element name="Transactions">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element type="xs:string" name="TransactionID"/>
+        <xs:element type="xs:string" name="OrderID"/>
+        <xs:element type="xs:string" name="PriceID"/>
+        <xs:element type="xs:string" name="TransactionDate"/>
+        <xs:element type="xs:string" name="TransactionDescription"/>
+        <xs:element type="xs:string" name="TransactionAmount"/>
+        <xs:element type="xs:string" name="Make"/>
+        <xs:element type="xs:string" name="Model"/>
+        <xs:element type="xs:string" name="Year"/>
+        <xs:element type="xs:string" name="EmployeeID"/>
+        <xs:element type="xs:string" name="TruckID"/>
+        <xs:element type="xs:string" name="Discount"/>
+        <xs:element type="xs:string" name="Quantity"/>
+        <xs:element type="xs:string" name="UnitPrice"/>
+        <xs:element type="xs:string" name="DriverPrice"/>
+        <xs:element type="xs:string" name="VIN"/>
+        <xs:element type="xs:string" name="RunNumber"/>
+        <xs:element type="xs:string" name="IsSpecial"/>
+        <xs:element type="xs:string" name="Rate"/>
+        <xs:element type="xs:string" name="Surcharge"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

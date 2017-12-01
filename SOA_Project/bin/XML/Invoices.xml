@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<!DOCTYPE Invoices SYSTEM "C:\\Users\aniru\eclipse-workspace\SOA_Project\src\DTD\Invoices.dtd">
+
+<Invoices xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="C:\\Users\aniru\eclipse-workspace\SOA_Project\src\XSD\Invoices.xsd">
+
+	<Invoice>
+		<InvoiceID>INV01</InvoiceID>
+		<OrderID>OID1</OrderID>
+		<CustomerID>CID1</CustomerID>
+		<PaymentID>PY1</PaymentID>
+		<PriceID>PR1</PriceID>
+		<TransactionID>TR1</TransactionID>
+		<TruckID>t1111</TruckID>
+		<ExpenseID>ExID2</ExpenseID>
+	</Invoice>
+	
+	<Invoice>
+		<InvoiceID>INV02</InvoiceID>
+		<OrderID>OID2</OrderID>
+		<CustomerID>CID2</CustomerID>
+		<PaymentID>PY2</PaymentID>
+		<PriceID>PR2</PriceID>
+		<TransactionID>TR2</TransactionID>
+		<TruckID>t1112</TruckID>
+		<ExpenseID>ExID2</ExpenseID>
+	</Invoice>
+	
+	<Invoice>
+		<InvoiceID>INV03</InvoiceID>
+		<OrderID>OID3</OrderID>
+		<CustomerID>CID3</CustomerID>
+		<PaymentID>PY3</PaymentID>
+		<PriceID>PR2</PriceID>
+		<TransactionID>TR3</TransactionID>
+		<TruckID>t1113</TruckID>
+		<ExpenseID>ExID1</ExpenseID>
+	</Invoice>
+	
+	<Invoice>
+		<InvoiceID>INV04</InvoiceID>
+		<OrderID>OID4</OrderID>
+		<CustomerID>CID4</CustomerID>
+		<PaymentID>PY4</PaymentID>
+		<PriceID>PR2</PriceID>
+		<TransactionID>TR4</TransactionID>
+		<TruckID>t1114</TruckID>
+		<ExpenseID>ExID1</ExpenseID>
+	</Invoice>
+	
+</Invoices>

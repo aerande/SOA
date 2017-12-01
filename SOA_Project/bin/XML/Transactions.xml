@@ -1,0 +1,121 @@
+<?xml version="1.0"?>
+<!DOCTYPE Transactions SYSTEM "C:\\Users\aniru\eclipse-workspace\SOA_Project\src\DTD\Transactions.dtd">
+
+<Transactions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="C:\\Users\aniru\eclipse-workspace\SOA_Project\src\XSD\Transactions.xsd">
+
+	<Transaction>
+		<TransactionID>TR1</TransactionID>
+		<OrderID>OID1</OrderID>
+		<PriceID>PR1</PriceID> 
+		<TransactionDate>14-Feb-17</TransactionDate> 
+		<TransactionDescription>dispatched</TransactionDescription> 
+		<TransactionAmount>20000</TransactionAmount>
+		<Make>Bosch</Make>
+		<Model>2030</Model>
+		<Year>2016</Year>
+		<EmployeeID>EID1</EmployeeID> 
+		<TruckID>t1111</TruckID> 
+		<Discount>50</Discount> 
+		<Quantity>1</Quantity>
+		<UnitPrice>18000</UnitPrice> 
+		<DriverPrice>2000</DriverPrice>
+		<VIN>VIN00000006543211</VIN>
+		<RunNumber>1</RunNumber> 
+		<IsSpecial>y</IsSpecial> 
+		<Rate>50</Rate> 
+		<Surcharge>300</Surcharge>
+	</Transaction>
+	
+	<Transaction>
+		<TransactionID>TR2</TransactionID>
+		<OrderID>OID2</OrderID>
+		<PriceID>PR2</PriceID> 
+		<TransactionDate>19-May-16</TransactionDate> 
+		<TransactionDescription>on the way</TransactionDescription> 
+		<TransactionAmount>30000</TransactionAmount>
+		<Make>GM</Make>
+		<Model>1500</Model>
+		<Year>2016</Year>
+		<EmployeeID>EID2</EmployeeID> 
+		<TruckID>t1112</TruckID> 
+		<Discount>200</Discount> 
+		<Quantity>1</Quantity>
+		<UnitPrice>28000</UnitPrice> 
+		<DriverPrice>2000</DriverPrice> 
+		<VIN>VIN00000001234562</VIN>
+		<RunNumber>1</RunNumber> 
+		<IsSpecial>n</IsSpecial> 
+		<Rate>100</Rate> 
+		<Surcharge>100</Surcharge>
+	</Transaction>
+	
+	<Transaction>
+		<TransactionID>TR3</TransactionID>
+		<OrderID>OID3</OrderID>
+		<PriceID>PR3</PriceID> 
+		<TransactionDate>18-Jan-17</TransactionDate> 
+		<TransactionDescription>delievered</TransactionDescription> 
+		<TransactionAmount>50000</TransactionAmount>
+		<Make>RAM</Make>
+		<Model>1700</Model>
+		<Year>2017</Year>
+		<EmployeeID>EID3</EmployeeID> 
+		<TruckID>t1113</TruckID> 
+		<Discount>200</Discount> 
+		<Quantity>1</Quantity>
+		<UnitPrice>45000</UnitPrice> 
+		<DriverPrice>5000</DriverPrice> 
+		<VIN>VIN00000006789023</VIN>
+		<RunNumber>1</RunNumber> 
+		<IsSpecial>y</IsSpecial> 
+		<Rate>200</Rate> 
+		<Surcharge>200</Surcharge>
+		</Transaction>
+		
+	<Transaction>
+		<TransactionID>TR4</TransactionID>
+		<OrderID>OID4</OrderID>
+		<PriceID>PR4</PriceID> 
+		<TransactionDate>15-Jan-15</TransactionDate> 
+		<TransactionDescription>ready to be delivered</TransactionDescription> 
+		<TransactionAmount>50000</TransactionAmount>
+		<Make>MACK</Make>
+		<Model>1100</Model>
+		<Year>2014</Year>
+		<EmployeeID>EID4</EmployeeID> 
+		<TruckID>t1114</TruckID> 
+		<Discount>300</Discount> 
+		<Quantity>1</Quantity>
+		<UnitPrice>63000</UnitPrice> 
+		<DriverPrice>5300</DriverPrice> 
+		<VIN>VIN00000009876544</VIN>
+		<RunNumber>1</RunNumber> 
+		<IsSpecial>n</IsSpecial> 
+		<Rate>270</Rate> 
+		<Surcharge>180</Surcharge>
+	</Transaction>
+	
+	<Transaction>
+		<TransactionID>TR5</TransactionID>
+		<OrderID>OID5</OrderID>
+		<PriceID>PR5</PriceID> 
+		<TransactionDate>18-Aug-17</TransactionDate> 
+		<TransactionDescription>at dealership</TransactionDescription> 
+		<TransactionAmount>50000</TransactionAmount>
+		<Make>Diamler</Make>
+		<Model>2500</Model>
+		<Year>2016</Year>
+		<EmployeeID>EID5</EmployeeID> 
+		<TruckID>t1115</TruckID> 
+		<Discount>250</Discount> 
+		<Quantity>1</Quantity>
+		<UnitPrice>48000</UnitPrice> 
+		<DriverPrice>5100</DriverPrice> 
+		<VIN>VIN00000008768545</VIN>
+		<RunNumber>1</RunNumber> 
+		<IsSpecial>y</IsSpecial> 
+		<Rate>220</Rate> 
+		<Surcharge>150</Surcharge>
+	</Transaction>
+	</Transactions>

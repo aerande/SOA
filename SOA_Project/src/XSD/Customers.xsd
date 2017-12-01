@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+targetNamespace="http://www.w3schools.com"
+xmlns="http://www.w3schools.com"
+elementFormDefault="qualified">
+
+  <xs:element name="Customers">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element type="xs:string" name="CustomerID"/>
+        <xs:element type="xs:string" name="CustomerTitle"/>
+        <xs:element type="xs:string" name="BusinessName"/>
+        <xs:element type="xs:string" name="BillingAddress"/>
+        <xs:element type="xs:string" name="City"/>
+        <xs:element type="xs:string" name="StateOrProvince"/>
+        <xs:element type="xs:string" name="PostalCode"/>
+        <xs:element type="xs:string" name="CountryRegion"/>
+        <xs:element type="xs:string" name="PhoneNumber"/>
+        <xs:element type="xs:string" name="CellNumber"/>
+        <xs:element type="xs:string" name="OtherNumber"/>
+        <xs:element type="xs:string" name="FaxNumber"/>
+        <xs:element type="xs:string" name="EmailAddress"/>
+        <xs:element type="xs:string" name="CustomerType"/>
+        <xs:element type="xs:string" name="CompanyName"/>
+        <xs:element type="xs:string" name="ContactName"/>
+        <xs:element type="xs:string" name="AlternateContactName"/>
+        <xs:element type="xs:string" name="DateEntered"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<!DOCTYPE Orderdetail SYSTEM "C:\\Users\aniru\eclipse-workspace\SOA_Project\src\DTD\Orders.dtd">
+
+<Orders xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="C:\\Users\aniru\eclipse-workspace\SOA_Project\src\XSD\Orders.xsd">
+	<Order>
+		<OrderID>OID1</OrderID>
+        	<OrderDate>10-Feb-2012</OrderDate> 
+        	<CustomerID>CID1</CustomerID> 
+        	<EmployeeID>EID1</EmployeeID>
+		<TruckID>t1111</TruckID>  
+		<IsSpecial>y</IsSpecial>
+        	<PurchaseOrderNumber>11111</PurchaseOrderNumber> 
+        	<OrderTotalAmount>5000</OrderTotalAmount>
+	</Order>
+	
+	<Order>
+		<OrderID>OID2</OrderID>
+        	<OrderDate>23-Mar-2015</OrderDate> 
+        	<CustomerID>CID2</CustomerID> 
+        	<EmployeeID>EID2</EmployeeID>
+		<TruckID>t1112</TruckID>
+		<IsSpecial>n</IsSpecial>		
+        	<PurchaseOrderNumber>11112</PurchaseOrderNumber> 
+        	<OrderTotalAmount>9500</OrderTotalAmount>
+	</Order>
+	
+	<Order>
+		<OrderID>OID3</OrderID>
+       		<OrderDate>23-Apr-2010</OrderDate> 
+        	<CustomerID>CID3</CustomerID> 
+        	<EmployeeID>EID3</EmployeeID>
+		<TruckID>t1113</TruckID>
+		<IsSpecial>n</IsSpecial>		
+        	<PurchaseOrderNumber>11113</PurchaseOrderNumber> 
+        	<OrderTotalAmount>4500</OrderTotalAmount>
+	</Order>
+	
+	<Order>
+		<OrderID>OID4</OrderID>
+       		<OrderDate>23-Sep-2012</OrderDate> 
+        	<CustomerID>CID4</CustomerID> 
+        	<EmployeeID>EID4</EmployeeID>
+		<TruckID>t1114</TruckID>
+		<IsSpecial>y</IsSpecial>		
+        	<PurchaseOrderNumber>11114</PurchaseOrderNumber> 
+        	<OrderTotalAmount>4900</OrderTotalAmount>
+	</Order>
+	
+</Orders>

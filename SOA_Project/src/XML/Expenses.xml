@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<!DOCTYPE Expenses SYSTEM "C:\\Users\aniru\eclipse-workspace\SOA_Project\src\DTD\Expenses.dtd">
+
+<Expenses xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="C:\\Users\aniru\eclipse-workspace\SOA_Project\src\XSD\Expenses.xsd">
+	<Expense>
+		<ExpenseID>ExID1</ExpenseID>
+		<EmployeeID>EID1</EmployeeID>
+		<TruckID>t1111</TruckID>
+		<ExpenseType>E</ExpenseType>
+		<PurposeofExpense>Food</PurposeofExpense>
+		<AmountSpent>50</AmountSpent>
+		<Description>Cash advances</Description>
+		<DatePurchased>10-Mar-2017</DatePurchased>
+		<DateSubmitted>14-Mar-2017</DateSubmitted>
+		<AdvanceAmount>50</AdvanceAmount>
+		<PaymentMethod>Cash</PaymentMethod>
+	</Expense>
+		<Expense>
+		<ExpenseID>ExID2</ExpenseID>
+		<EmployeeID>EID2</EmployeeID>
+		<TruckID>t1112</TruckID>
+		<ExpenseType>T</ExpenseType>
+		<PurposeofExpense>Oil Change</PurposeofExpense>
+		<AmountSpent>100</AmountSpent>
+		<Description>New oil</Description>
+		<DatePurchased>10-Feb-2016 </DatePurchased>
+		<DateSubmitted>13-Feb-2016 </DateSubmitted>
+		<AdvanceAmount>150</AdvanceAmount>
+		<PaymentMethod>Cash</PaymentMethod>
+	</Expense>
+		<Expense>
+		<ExpenseID>ExID3</ExpenseID>
+		<EmployeeID>EID3</EmployeeID>
+		<TruckID>t1113</TruckID>
+		<ExpenseType>E</ExpenseType>
+		<PurposeofExpense>Food</PurposeofExpense>
+		<AmountSpent>70</AmountSpent>
+		<Description>Full amount paid</Description>
+		<DatePurchased>11-Nov-2016</DatePurchased>
+		<DateSubmitted>19-Nov-2016</DateSubmitted>
+		<AdvanceAmount>100</AdvanceAmount>
+		<PaymentMethod>Cash</PaymentMethod>
+	</Expense>
+
+		<Expense>
+		<ExpenseID>ExID4</ExpenseID>
+		<EmployeeID>EID4</EmployeeID>
+		<TruckID>t1114</TruckID>
+		<ExpenseType>G</ExpenseType>
+		<PurposeofExpense>Maintainence</PurposeofExpense>
+		<AmountSpent>530</AmountSpent>
+		<Description>Full amount paid</Description>
+		<DatePurchased>10-Jul-2016</DatePurchased>
+		<DateSubmitted>19-Jul-2016</DateSubmitted>
+		<AdvanceAmount>100</AdvanceAmount>
+		<PaymentMethod>Cash</PaymentMethod>
+	</Expense>
+</Expenses>

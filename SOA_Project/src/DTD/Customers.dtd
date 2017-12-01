@@ -1,0 +1,85 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT Customers (Customer)+>
+<!ATTLIST Customers
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Customer (CustomerID,CustomerTitle,BusinessName,
+                    BillingAddress,City,StateOrProvince,PostalCode,
+                    CountryRegion,PhoneNumber,CellNumber,OtherNumber,
+                    FaxNumber,EmailAddress,CustomerType,CompanyName,
+                    ContactName,AlternateContactName,DateEntered)>
+<!ATTLIST Customer
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT CustomerID (#PCDATA)>
+<!ATTLIST CustomerID
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT CustomerTitle (#PCDATA)>
+<!ATTLIST CustomerTitle
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT BusinessName (#PCDATA)>
+<!ATTLIST BusinessName
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT BillingAddress (#PCDATA)>
+<!ATTLIST BillingAddress
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT City (#PCDATA)>
+<!ATTLIST City
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT StateOrProvince (#PCDATA)>
+<!ATTLIST StateOrProvince
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT PostalCode (#PCDATA)>
+<!ATTLIST PostalCode
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT CountryRegion (#PCDATA)>
+<!ATTLIST CountryRegion
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT PhoneNumber (#PCDATA)>
+<!ATTLIST PhoneNumber
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT CellNumber (#PCDATA)>
+<!ATTLIST CellNumber
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT OtherNumber (#PCDATA)>
+<!ATTLIST OtherNumber
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT FaxNumber (#PCDATA)>
+<!ATTLIST FaxNumber
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT EmailAddress (#PCDATA)>
+<!ATTLIST EmailAddress
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT CustomerType (#PCDATA)>
+<!ATTLIST CustomerType
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT CompanyName (#PCDATA)>
+<!ATTLIST CompanyName
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT ContactName (#PCDATA)>
+<!ATTLIST ContactName
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT AlternateContactName (#PCDATA)>
+<!ATTLIST AlternateContactName
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT DateEntered (#PCDATA)>
+<!ATTLIST DateEntered
+  xmlns CDATA #FIXED ''>

@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+targetNamespace="http://www.w3schools.com"
+xmlns="http://www.w3schools.com"
+elementFormDefault="qualified">
+
+  <xs:element name="Location">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element type="xs:string" name="LocationID"/>
+        <xs:element type="xs:string" name="LocName"/>
+        <xs:element type="xs:string" name="LocationCode"/>
+        <xs:element type="xs:string" name="IsAuction"/>
+        <xs:element type="xs:string" name="CustomerID"/>
+        <xs:element type="xs:string" name="AddressStreet1"/>
+        <xs:element type="xs:string" name="AddressStreet2"/>
+        <xs:element type="xs:string" name="City"/>
+        <xs:element type="xs:string" name="State"/>
+        <xs:element type="xs:string" name="PostalCode"/>
+        <xs:element type="xs:string" name="Region"/>
+        <xs:element type="xs:string" name="Location_contact_name"/>
+        <xs:element type="xs:string" name="LocPhone"/>
+        <xs:element type="xs:string" name="LocFaxNumber"/>
+        <xs:element type="xs:string" name="LocEmail"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

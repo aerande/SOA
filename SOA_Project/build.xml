@@ -1,0 +1,13 @@
+<project default="wsgen">
+ 
+ <target name="wsgen" >
+   
+  <exec executable="C:\Program Files\Java\jdk1.8.0_144\bin\wsgen.exe">
+      
+   <arg line="-cp ./bin -keep -s ./src -d ./bin Services.ServiceCalls"/>
+      
+  </exec>
+      
+ </target>
+ 
+</project>

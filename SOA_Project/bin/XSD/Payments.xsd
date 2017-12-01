@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+targetNamespace="http://www.w3schools.com"
+xmlns="http://www.w3schools.com"
+elementFormDefault="qualified">
+
+  <xs:element name="Payments">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element type="xs:string" name="PaymentID"/>
+        <xs:element type="xs:string" name="OrderID"/>
+        <xs:element type="xs:string" name="PaymentMethodID"/>
+        <xs:element type="xs:string" name="PaymentAmount"/>
+        <xs:element type="xs:string" name="PaymentDate"/>
+        <xs:element type="xs:string" name="CheckNumber"/>
+        <xs:element type="xs:string" name="CreditCardType"/>
+        <xs:element type="xs:string" name="CreditCardNumber"/>
+        <xs:element type="xs:string" name="CardholdersName"/>
+        <xs:element type="xs:string" name="CreditCardExpDate"/>
+        <xs:element type="xs:string" name="CreditCardAuthorizationNumber"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

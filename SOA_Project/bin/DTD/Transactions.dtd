@@ -1,0 +1,92 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT Transactions (Transaction)+>
+<!ATTLIST Transactions
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Transaction (TransactionID,OrderID,PriceID,TransactionDate,
+                       TransactionDescription,TransactionAmount,Make,Model,Year,
+                       EmployeeID,TruckID,Discount,Quantity,UnitPrice,
+                       DriverPrice,VIN,RunNumber,IsSpecial,Rate,Surcharge)>
+<!ATTLIST Transaction
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT TransactionID (#PCDATA)>
+<!ATTLIST TransactionID
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT OrderID (#PCDATA)>
+<!ATTLIST OrderID
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT PriceID (#PCDATA)>
+<!ATTLIST PriceID
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT TransactionDate (#PCDATA)>
+<!ATTLIST TransactionDate
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT TransactionDescription (#PCDATA)>
+<!ATTLIST TransactionDescription
+  xmlns CDATA #FIXED ''>
+  
+<!ELEMENT TransactionAmount (#PCDATA)>
+<!ATTLIST TransactionAmount
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Make (#PCDATA)>
+<!ATTLIST Make
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Model (#PCDATA)>
+<!ATTLIST Model
+  xmlns CDATA #FIXED ''>
+  
+<!ELEMENT Year (#PCDATA)>
+<!ATTLIST Year
+  xmlns CDATA #FIXED ''>
+ 
+<!ELEMENT EmployeeID (#PCDATA)>
+<!ATTLIST EmployeeID
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT TruckID (#PCDATA)>
+<!ATTLIST TruckID
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Discount (#PCDATA)>
+<!ATTLIST Discount
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Quantity (#PCDATA)>
+<!ATTLIST Quantity
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT UnitPrice (#PCDATA)>
+<!ATTLIST UnitPrice
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT DriverPrice (#PCDATA)>
+<!ATTLIST DriverPrice
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT VIN (#PCDATA)>
+<!ATTLIST VIN
+  xmlns CDATA #FIXED ''>  
+  
+<!ELEMENT RunNumber (#PCDATA)>
+<!ATTLIST RunNumber
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT IsSpecial (#PCDATA)>
+<!ATTLIST IsSpecial
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Rate (#PCDATA)>
+<!ATTLIST Rate
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Surcharge (#PCDATA)>
+<!ATTLIST Surcharge
+  xmlns CDATA #FIXED ''>

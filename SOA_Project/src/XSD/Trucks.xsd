@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+targetNamespace="http://www.w3schools.com"
+xmlns="http://www.w3schools.com"
+elementFormDefault="qualified">
+
+  <xs:element name="Trucks">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element type="xs:string" name="TruckID"/>
+        <xs:element type="xs:string" name="Make"/>
+        <xs:element type="xs:string" name="Year"/>
+        <xs:element type="xs:string" name="Model"/>
+        <xs:element type="xs:string" name="LicensePlateNo"/>
+        <xs:element type="xs:string" name="color"/>
+        <xs:element type="xs:string" name="VIN"/>
+		<xs:element type="xs:string" name="DriverID"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

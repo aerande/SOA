@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+targetNamespace="http://www.w3schools.com"
+xmlns="http://www.w3schools.com"
+elementFormDefault="qualified">
+
+  <xs:element name="Pricing">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element type="xs:string" name="PriceID"/>
+        <xs:element type="xs:string" name="LocationIDFrom"/>
+        <xs:element type="xs:string" name="LocationIDTo"/>
+        <xs:element type="xs:string" name="Price"/>
+        <xs:element type="xs:string" name="LocationCodeFrom"/>
+        <xs:element type="xs:string" name="LocationCodeTo"/>
+        <xs:element type="xs:string" name="LocationNameFrom"/>
+        <xs:element type="xs:string" name="LocationNameTo"/>
+        <xs:element type="xs:string" name="CustomerID"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

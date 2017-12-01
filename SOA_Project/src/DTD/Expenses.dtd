@@ -1,0 +1,56 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT Expenses (Expense)+>
+<!ATTLIST Expenses
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Expense (ExpenseID,EmployeeID,TruckID,ExpenseType,
+                   PurposeofExpense,AmountSpent,Description,
+                   DatePurchased,DateSubmitted,AdvanceAmount,
+                   PaymentMethod)>
+<!ATTLIST Expense
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT ExpenseID (#PCDATA)>
+<!ATTLIST ExpenseID
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT EmployeeID (#PCDATA)>
+<!ATTLIST EmployeeID
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT TruckID (#PCDATA)>
+<!ATTLIST TruckID
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT ExpenseType (#PCDATA)>
+<!ATTLIST ExpenseType
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT PurposeofExpense (#PCDATA)>
+<!ATTLIST PurposeofExpense
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT AmountSpent (#PCDATA)>
+<!ATTLIST AmountSpent
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Description (#PCDATA)>
+<!ATTLIST Description
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT DatePurchased (#PCDATA)>
+<!ATTLIST DatePurchased
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT DateSubmitted (#PCDATA)>
+<!ATTLIST DateSubmitted
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT AdvanceAmount (#PCDATA)>
+<!ATTLIST AdvanceAmount
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT PaymentMethod (#PCDATA)>
+<!ATTLIST PaymentMethod
+  xmlns CDATA #FIXED ''>

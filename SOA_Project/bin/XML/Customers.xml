@@ -1,0 +1,110 @@
+<?xml version="1.0"?>
+<!DOCTYPE Customers SYSTEM "C:\\Users\aniru\eclipse-workspace\SOA_Project\src\DTD\Customers.dtd">
+
+<Customers xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="C:\\Users\aniru\eclipse-workspace\SOA_Project\src\XSD\Customers.xsd">
+	<Customer>
+		<CustomerID>CID1</CustomerID> 
+		<CustomerTitle>Duty Manager</CustomerTitle> 
+		<BusinessName>Education</BusinessName> 
+		<BillingAddress>3001 South King Drive</BillingAddress>	
+		<City>Chicago</City> 
+		<StateOrProvince>Illinois</StateOrProvince> 
+		<PostalCode>47283</PostalCode>
+		<CountryRegion>USA</CountryRegion>         
+		<PhoneNumber>1165796649</PhoneNumber>  
+		<CellNumber>1024505701</CellNumber>  
+		<OtherNumber>1505949291</OtherNumber>  
+		<FaxNumber>1567147837</FaxNumber>  
+		<EmailAddress>patrick@fina.com</EmailAddress>
+		<CustomerType>Regular</CustomerType>
+		<CompanyName>IIT</CompanyName> 
+		<ContactName>Patrick</ContactName> 
+		<AlternateContactName>Fina</AlternateContactName> 
+		<DateEntered>17-Sept-10</DateEntered>
+	</Customer>
+	
+		<Customer>
+		<CustomerID>CID2</CustomerID> 
+		<CustomerTitle>Dispatcher</CustomerTitle> 
+		<BusinessName>Citadel</BusinessName> 
+		<BillingAddress>4997 Helena Trail</BillingAddress>	
+		<City>Utah</City> 
+		<StateOrProvince>Utah</StateOrProvince> 
+		<PostalCode>43026</PostalCode>
+		<CountryRegion>USA</CountryRegion>         
+		<PhoneNumber>1122816858</PhoneNumber>  
+		<CellNumber>1052397790</CellNumber>  
+		<OtherNumber>1418206661</OtherNumber>  
+		<FaxNumber>1044475866</FaxNumber>  
+		<EmailAddress>Hermannbud0@cornell.edu</EmailAddress>
+		<CustomerType>Standard</CustomerType> 
+		<CompanyName>Hermann</CompanyName> 
+		<ContactName>Step</ContactName> 
+		<AlternateContactName>Joshua</AlternateContactName> 
+		<DateEntered>01-Feb-12</DateEntered>
+		</Customer>
+		
+		<Customer>
+		<CustomerID>CID3</CustomerID> 
+		<CustomerTitle>Guest Service Agent</CustomerTitle> 
+		<BusinessName>Fivespan</BusinessName> 
+		<BillingAddress>28 St Paul</BillingAddress>	
+		<City>California</City> 
+		<StateOrProvince>Illinois</StateOrProvince> 
+		<PostalCode>75232</PostalCode>
+		<CountryRegion>USA</CountryRegion>         
+		<PhoneNumber>1202306762</PhoneNumber>  
+		<CellNumber>1122292026</CellNumber>  
+		<OtherNumber>1129414772</OtherNumber>  
+		<FaxNumber>1026858533</FaxNumber>  
+		<EmailAddress>padam7@flickr.com</EmailAddress>
+		<CustomerType>standard</CustomerType>
+		<CompanyName>Padman</CompanyName> 
+		<ContactName>Ed</ContactName> 
+		<AlternateContactName>Paddy</AlternateContactName> 
+		<DateEntered>28-Oct-13</DateEntered>
+	</Customer>
+	
+	<Customer>
+		<CustomerID>CID4</CustomerID> 
+		<CustomerTitle>Primary Supervisor</CustomerTitle> 
+		<BusinessName>Merchandise</BusinessName> 
+		<BillingAddress>Newyork Street</BillingAddress>	
+		<City>Naperville</City> 
+		<StateOrProvince>Illinois</StateOrProvince> 
+		<PostalCode>60505</PostalCode>
+		<CountryRegion>USA</CountryRegion>         
+		<PhoneNumber>1165796649</PhoneNumber>  
+		<CellNumber>1122295526</CellNumber>  
+		<OtherNumber>1129414789</OtherNumber>  
+		<FaxNumber>1026238533</FaxNumber>  
+		<EmailAddress>tim12@kohl.com</EmailAddress>
+		<CustomerType>Elite</CustomerType>
+		<CompanyName>Kohls</CompanyName> 
+		<ContactName>Timothy</ContactName> 
+		<AlternateContactName>Tim</AlternateContactName> 
+		<DateEntered>28-Oct-15</DateEntered>
+	</Customer>
+	
+	<Customer>
+		<CustomerID>CID5</CustomerID> 
+		<CustomerTitle>Director</CustomerTitle> 
+		<BusinessName>Hospital</BusinessName> 
+		<BillingAddress>7955 S Street</BillingAddress>	
+		<City>Darien</City> 
+		<StateOrProvince>Illinois</StateOrProvince> 
+		<PostalCode>50905</PostalCode>
+		<CountryRegion>USA</CountryRegion>         
+		<PhoneNumber>1165796649</PhoneNumber>  
+		<CellNumber>1165796649</CellNumber>  
+		<OtherNumber>1165796649</OtherNumber>  
+		<FaxNumber>1165796649</FaxNumber>  
+		<EmailAddress>dsalle@uchospital.edu</EmailAddress>
+		<CustomerType>Standard</CustomerType>
+		<CompanyName>University of Chicago Medicine</CompanyName> 
+		<ContactName>David</ContactName> 
+		<AlternateContactName>David</AlternateContactName> 
+		<DateEntered>28-Sept-14</DateEntered>
+	</Customer>
+</Customers>

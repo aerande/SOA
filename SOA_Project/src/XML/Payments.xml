@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<!DOCTYPE Payments SYSTEM "C:\\Users\aniru\eclipse-workspace\SOA_Project\src\DTD\Payments.dtd">
+
+<Payments xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="C:\\Users\aniru\eclipse-workspace\SOA_Project\src\XSD\Payments.xsd">
+	<Payment>
+		<PaymentID>PY1</PaymentID>
+		<OrderID>OID1</OrderID>
+		<PaymentMethod>Check</PaymentMethod>
+		<PaymentAmount>20000</PaymentAmount>
+		<PaymentDate>3-Jul-14</PaymentDate>
+		<CheckNumber>1121</CheckNumber>
+		<CreditCardType>NULL</CreditCardType>
+		<CreditCardNumber>0</CreditCardNumber>
+		<CardholdersName>NULL</CardholdersName>
+		<CreditCardExpDate>0</CreditCardExpDate>
+		<CreditCardAuthorizationNumber>0</CreditCardAuthorizationNumber>
+	</Payment>
+	
+	<Payment>
+		<PaymentID>PY2</PaymentID>
+		<OrderID>OID2</OrderID>
+		<PaymentMethod>CASH</PaymentMethod>
+		<PaymentAmount>10000</PaymentAmount>
+		<PaymentDate>2-May-14</PaymentDate>
+		<CheckNumber>0</CheckNumber>
+		<CreditCardType>NULL</CreditCardType>
+		<CreditCardNumber>0</CreditCardNumber>
+		<CardholdersName>NULL</CardholdersName>
+		<CreditCardExpDate>0</CreditCardExpDate>
+		<CreditCardAuthorizationNumber>0</CreditCardAuthorizationNumber>
+	</Payment>
+	
+	<Payment>
+		<PaymentID>PY3</PaymentID>
+		<OrderID>OID3</OrderID>
+		<PaymentMethod>Card</PaymentMethod>
+		<PaymentAmount>40000</PaymentAmount>
+		<PaymentDate>23-Dec-14</PaymentDate>
+		<CheckNumber>1123</CheckNumber>
+		<CreditCardType>Visa</CreditCardType>
+		<CreditCardNumber>1234567843218765</CreditCardNumber>
+		<CardholdersName>Jim</CardholdersName>
+		<CreditCardExpDate>3-Jul-2021</CreditCardExpDate>
+		<CreditCardAuthorizationNumber>095</CreditCardAuthorizationNumber>
+	</Payment>
+	
+	<Payment>
+		<PaymentID>PY4</PaymentID>
+		<OrderID>OID4</OrderID>
+		<PaymentMethod>Check</PaymentMethod>
+		<PaymentAmount>40000</PaymentAmount>
+		<PaymentDate>14-Dec-14</PaymentDate>
+		<CheckNumber>4521</CheckNumber>
+		<CreditCardType>NULL</CreditCardType>
+		<CreditCardNumber>0</CreditCardNumber>
+		<CardholdersName>NULL</CardholdersName>
+		<CreditCardExpDate>0</CreditCardExpDate>
+		<CreditCardAuthorizationNumber>0</CreditCardAuthorizationNumber>
+	</Payment>
+</Payments>

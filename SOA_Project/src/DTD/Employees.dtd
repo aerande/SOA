@@ -1,0 +1,84 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT Employees (Employee)+>
+<!ATTLIST Employees
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Employee (EmployeeID,FirstName,LastName,Email,Extension,
+                    HomePhone,CellPhone,JobTitle,SocialSecurityNumber,
+                    DriverLicenseNumber,Address,City,State,PostalCode,
+                    Birthdate,DateHired,Salary,Notes)>
+<!ATTLIST Employee
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT EmployeeID (#PCDATA)>
+<!ATTLIST EmployeeID
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT FirstName (#PCDATA)>
+<!ATTLIST FirstName
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT LastName (#PCDATA)>
+<!ATTLIST LastName
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Email (#PCDATA)>
+<!ATTLIST Email
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Extension (#PCDATA)>
+<!ATTLIST Extension
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT HomePhone (#PCDATA)>
+<!ATTLIST HomePhone
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT CellPhone (#PCDATA)>
+<!ATTLIST CellPhone
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT JobTitle (#PCDATA)>
+<!ATTLIST JobTitle
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT SocialSecurityNumber (#PCDATA)>
+<!ATTLIST SocialSecurityNumber
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT DriverLicenseNumber (#PCDATA)>
+<!ATTLIST DriverLicenseNumber
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Address (#PCDATA)>
+<!ATTLIST Address
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT City (#PCDATA)>
+<!ATTLIST City
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT State (#PCDATA)>
+<!ATTLIST State
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT PostalCode (#PCDATA)>
+<!ATTLIST PostalCode
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Birthdate (#PCDATA)>
+<!ATTLIST Birthdate
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT DateHired (#PCDATA)>
+<!ATTLIST DateHired
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Salary (#PCDATA)>
+<!ATTLIST Salary
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Notes (#PCDATA)>
+<!ATTLIST Notes
+  xmlns CDATA #FIXED ''>

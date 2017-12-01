@@ -1,0 +1,115 @@
+<?xml version="1.0"?>
+<!DOCTYPE Trucks SYSTEM "C:\Users\aniru\eclipse-workspace\SOA_Project\src\DTD\Trucks.dtd">
+
+<Trucks xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="C:\Users\aniru\eclipse-workspace\SOA_Project\src\XSD\Trucks.xsd">
+	<Truck>
+		<TruckID>t1111</TruckID>
+		<Make>Volvo</Make> 
+		<Year>2016</Year>	
+		<Model>v1010</Model> 
+		<LicensePlateNo>IL1212</LicensePlateNo>
+		<Color>white</Color>
+		<VIN>VIN00000006543211</VIN>
+		<DriverID>DI121</DriverID>
+	</Truck>
+	
+	<Truck>
+		<TruckID>t1112</TruckID>
+		<Make>Mack</Make> 
+		<Year>2017</Year>	
+		<Model>m2020</Model> 
+		<LicensePlateNo>NY2323</LicensePlateNo>
+		<Color>Red</Color>
+		<VIN>VIN00000001234562</VIN>
+		<DriverID>DI211</DriverID>
+	</Truck>
+	
+	<Truck>
+		<TruckID>t1113</TruckID>
+		<Make>Kenworth</Make> 
+		<Year>2014</Year>	
+		<Model>k3030</Model> 
+		<LicensePlateNo>NJ1312</LicensePlateNo>
+		<Color>Black</Color>
+		<VIN>VIN00000006789023</VIN>
+		<DriverID>DI909</DriverID>
+	</Truck>
+	
+	<Truck>
+		<TruckID>t1114</TruckID>
+		<Make>International</Make> 
+		<Year>2015</Year>	
+		<Model>i400</Model> 
+		<LicensePlateNo>CL6753</LicensePlateNo>
+		<Color>Black</Color>
+		<VIN>VIN00000009876544</VIN>
+		<DriverID>DI324</DriverID>
+	</Truck>
+	
+	<Truck>
+		<TruckID>t1115</TruckID>
+		<Make>Western Star</Make> 
+		<Year>2017</Year>	
+		<Model>ws1000</Model> 
+		<LicensePlateNo>IL1092</LicensePlateNo>
+		<Color>white</Color>
+		<VIN>VIN00000008768545</VIN>
+		<DriverID>DI770</DriverID>
+	</Truck>
+	
+	<Truck>
+		<TruckID>t1116</TruckID>
+		<Make>MAN</Make> 
+		<Year>2013</Year>	
+		<Model>man970</Model> 
+		<LicensePlateNo>NY7813</LicensePlateNo>
+		<Color>Green</Color>
+		<VIN>VIN00000004532545</VIN>
+		<DriverID>DI909</DriverID>
+	</Truck>
+	
+	<Truck>
+		<TruckID>t1117</TruckID>
+		<Make>Mercedes-Benz</Make> 
+		<Year>2016	</Year>	
+		<Model>mb420</Model> 
+		<LicensePlateNo>NJ2200</LicensePlateNo>
+		<Color>Black</Color>
+		<VIN>VIN00000006842017</VIN>
+		<DriverID>DI255</DriverID>
+	</Truck>
+	
+	<Truck>
+		<TruckID>t1118</TruckID>
+		<Make>AEC</Make> 
+		<Year>2016</Year>	
+		<Model>aec100</Model> 
+		<LicensePlateNo>CL9843</LicensePlateNo>
+		<Color>Red</Color>
+		<VIN>VIN00000001357908</VIN>
+		<DriverID>DI900</DriverID>
+	</Truck>
+	
+	<Truck>
+		<TruckID>t1119</TruckID>
+		<Make>Mercedes-Benz</Make> 
+		<Year>2012</Year>	
+		<Model>mb550</Model> 
+		<LicensePlateNo>OH1093</LicensePlateNo>
+		<Color>Black</Color>
+		<VIN>VIN00000001216209</VIN>
+		<DriverID>DI864</DriverID>
+	</Truck>
+	
+	<Truck>
+		<TruckID>t1110</TruckID>
+		<Make>MAN</Make> 
+		<Year>2013</Year>	
+		<Model>man800</Model> 
+		<LicensePlateNo>OH1090</LicensePlateNo>
+		<Color>Green</Color>
+		<VIN>VIN00000002123210</VIN>
+		<DriverID>DI436</DriverID>
+	</Truck>
+</Trucks>

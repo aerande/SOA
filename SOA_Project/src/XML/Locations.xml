@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+<!DOCTYPE Locations SYSTEM "C:\\Users\aniru\eclipse-workspace\SOA_Project\src\DTD\Locations.dtd">
+
+<Locations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="C:\\Users\aniru\eclipse-workspace\SOA_Project\src\XSD\Locations.xsd">
+	<Location>
+		<LocationID>LOC1</LocationID> 
+        	<LocName>Chicago</LocName> 
+	        <LocationCode>CH111</LocationCode> 
+        	<IsAuction>yes</IsAuction> 
+		<CustomerID>CID1</CustomerID> 
+        	<Address_Street1>870 Oak Valley Street</Address_Street1>
+        	<Address_street2>Chicago</Address_street2> 
+		<City>Chicago</City> 
+		<State>ILLINOIS</State> 
+		<PostalCode>60616</PostalCode>  
+		<Region>CETNTRAL</Region> 
+		<Location_contact_name>Ronald</Location_contact_name> 
+		<LocPhone>1415598280</LocPhone> 
+		<LocFaxNumber>1402658000</LocFaxNumber>
+		<LocEmail>chillinois@gmail.com</LocEmail>
+	</Location>	
+	
+	<Location>
+		<LocationID>LOC2</LocationID> 
+        	<LocName>Columbus</LocName> 
+        	<LocationCode></LocationCode> 
+        	<IsAuction>yes</IsAuction> 
+		<CustomerID>CID2</CustomerID> 
+	        <Address_Street1>594 Erie Point</Address_Street1>
+       		<Address_street2>Columbus</Address_street2> 
+		<City>Columbus</City> 
+		<State>OHIO</State> 
+		<PostalCode>43026</PostalCode>  
+		<Region>CENTRAL</Region> 
+		<Location_contact_name>Antonio</Location_contact_name> 
+		<LocPhone>1731431070</LocPhone> 
+		<LocFaxNumber>1504448848</LocFaxNumber>
+		<LocEmail>coluhio@gmail.com</LocEmail>
+	</Location>		
+	
+	<Location>
+		<LocationID>LOC3</LocationID> 
+		<LocName>New York</LocName> 
+		<LocationCode>NY111</LocationCode> 
+		<IsAuction>no</IsAuction> 
+		<CustomerID>CID3</CustomerID> 
+		<Address_Street1>18320 Shoshone Pass</Address_Street1>
+		<Address_street2>newyork</Address_street2> 
+		<City>New York</City> 
+		<State>New York</State> 
+		<PostalCode>45656</PostalCode>  
+		<Region>CENTRAL</Region> 
+		<Location_contact_name>Mary</Location_contact_name> 
+		<LocPhone>1816961273</LocPhone> 
+		<LocFaxNumber>1202385413</LocFaxNumber>
+		<LocEmail>newyny@gmail.com</LocEmail>
+	</Location>	
+	
+	<Location>
+		<LocationID>LOC4</LocationID> 
+		<LocName>Maryland</LocName> 
+		<LocationCode>MD112</LocationCode> 
+		<IsAuction>no</IsAuction> 
+		<CustomerID>CID4</CustomerID> 
+		<Address_Street1>2314 The Alaire</Address_Street1>
+		<Address_street2>Kings Dr</Address_street2> 
+		<City>Maryland</City> 
+		<State>Maryland</State> 
+		<PostalCode>40953</PostalCode>  
+		<Region>WEST</Region> 
+		<Location_contact_name>Arya</Location_contact_name> 
+		<LocPhone>1202385413</LocPhone> 
+		<LocFaxNumber>1202385413</LocFaxNumber>
+		<LocEmail>md@gmail.com</LocEmail>
+	</Location>	
+	
+	<Location>
+		<LocationID>LOC5</LocationID> 
+		<LocName>Charlotte</LocName> 
+		<LocationCode>CH111</LocationCode> 
+		<IsAuction>yes</IsAuction> 
+		<CustomerID>CID5</CustomerID> 
+		<Address_Street1>18 Legacy Pass</Address_Street1>
+		<Address_street2>Cubs Dr</Address_street2> 
+		<City>Charlotte</City> 
+		<State>Noth Carolina</State> 
+		<PostalCode>89076</PostalCode>  
+		<Region>North</Region> 
+		<Location_contact_name>Somu</Location_contact_name> 
+		<LocPhone>1202385413</LocPhone> 
+		<LocFaxNumber>1202223413</LocFaxNumber>
+		<LocEmail>chnc09@gmail.com</LocEmail>
+	</Location>	
+</Locations>
